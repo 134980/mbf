@@ -16,6 +16,7 @@ import re, time, json, os
 from threading import (Thread, Event)
 from src.CLI import (prints, inputs, br, progressBar)
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
 
 class Brute:
     def __init__(self, store=None):

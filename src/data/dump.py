@@ -15,6 +15,7 @@
 from threading import (Thread, Event)
 from src.CLI import (color, prints, inputs, write, br)
 import re, time, json, os
+from datetime import datetime
 
 class Dump:
     def __init__(self, store=None):
